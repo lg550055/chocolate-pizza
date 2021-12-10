@@ -1,17 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Yellowtail');
 
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  color: dimgray;
+}
+
+header {
+  padding: 1em 0;
+}
+
+header > img {
+  float: left;
+}
+
+header div:first-of-type {
+  display: inline-block;
+  margin-left: 0.25em;
+  width: 50%;
+}
+
+section {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 2em;
+}
+
+main > div:first-of-type, header div:last-of-type {
+  float: right;
+}
+
+main div h6 { display: inline; }
+
+figure {
+  background-image: url(img/hr-img.png);
+  margin: 1.25em 0;
+  height: 0.6em;
+}
+
+main > img {
+  width: 100%;
+}
+
+main > p {
+  margin: 1.5em 0;
+  font-size: 0.9em;
+  text-indent: 1.7em;
+  line-height: 1.25em;
+}
+
+form {
+  padding: 1.5em;
+  background-image: url(img/list-bg.png);
+  margin-bottom: 2em;
+}
+
+article {
+  margin-bottom: 2em;
+}
+
+article img {
+  float: left;
+}
+
+article div {
+  display: inline-block;
+  margin: 0 1em;
+  width: 65%;
+  font-size: 0.9em;
+  line-height: 1.25em;
+}
+
+button {
+  float: right;
+  border: none;
+  color: antiquewhite;
+  font-family: Oswald;
+  text-align: center;
+  background-color: #cd6155;
+  padding: 0.75em 2em;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 3em;
+}
+
 h1 {
   font-family: Oswald;
   font-weight: bold;
-  font-size: x-large;
+  font-size: 40px;
+  color: #333;
 }
 
 h2 {
   font-family: Yellowtail;
-  font-size: larger;
+  font-size: 40px;
+  font-weight: bold;
+  color: #444;
+}
+
+h3 {
+  color: darkslategray;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
 }
 
 h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
-  font-size: x-small;
+  font-size: 0.55em;
+  color: lightslategray;
 }
