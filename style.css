@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Yellowtail');
+
+h1 {
+  font-family: Oswald;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+h2 {
+  font-family: Yellowtail;
+  font-size: larger;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-size: x-small;
+}
